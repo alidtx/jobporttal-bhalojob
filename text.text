@@ -1,0 +1,69 @@
+
+                                <div class="form-row field">
+                                    <div class="form-group col-md-6">
+                                        <label for="lastName"> Last Name </label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="middleName"> First, Middle Name </label>
+                                        <input type="text" class="form-control" id="middleName" placeholder=" First, Middle Name" required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="lastName"> Last Name (フリガナ ）</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Last Name (フリガナ ）" required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="dob"> Date Of Birth (DOB) </label>
+                                        <input type="date" class="form-control" id="dob" placeholder=" Date Of Birth (DOB) " required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="gender"> Gender  </label>
+                                        <select id="gender" class="form-control">
+                                            <option selected> (:-- Select Gender --:)  </option>
+                                            <option> Male </option>
+                                            <option> Female </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="email"> Email Address </label>
+                                        <input type="email" class="form-control" id="email" placeholder=" Email Address " required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="maritalStatus"> Marital Status   MARITAL STATUS</label>
+                                        <select id="maritalStatus" class="form-control">
+                                            <option selected> (:-- Select Marital Status --:)  </option>
+                                            <option> Married </option>
+                                            <option> Divorced </option>
+                                            <option> Separated </option>
+                                            <option> Widowed </option>
+                                            <option> Never Married </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row field">
+                                    <div class="form-group col-md-6">
+                                        <label for="jpPhone"> Jp Cell Phone </label>
+                                        <input type="number" class="form-control" id="jpPhone" placeholder=" Jp Cell Phone " required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="emergencyNameJp"> Emergency Contact Name in Jp </label>
+                                        <input type="text" class="form-control" id="emergencyNameJp" placeholder=" Emergency Contact Name in Jp " required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="emergencyCellPhone"> Emergency Cell Phone </label>
+                                        <input type="phone" class="form-control" id="emergencyCellPhone" placeholder=" Emergency Cell Phone " required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="visaStatus"> Current Visa Status </label>
+                                        <input type="text" class="form-control" id="visaStatus" placeholder=" Current Visa Status " required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="visaExpiry"> Visa Expiry Date </label>
+                                        <input type="text" class="form-control" id="visaExpiry" placeholder=" Visa Expiry Date " required>
+                                    </div>
+                                </div>
+                                
+
+
+                                https://codepen.io/isaiaphiliph/pen/RwppXKG
